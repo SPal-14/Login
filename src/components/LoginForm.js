@@ -29,7 +29,7 @@ function LoginForm({Login, error }) {
             </div>
             <div className="form-group">
             <label htmlFor="dateofbirth">Date of Birth:</label>
-            <input type="number" name="" id="dateofbirth"  onChange={e => setDetails({...details, dateofbirth: e.target.value})} value={details.dateofbirth} />
+            <input type="date" name="" id="dateofbirth"  onChange={e => setDetails({...details, dateofbirth: e.target.value})} value={details.dateofbirth} />
             </div>
             
             <div className="form-group">
